@@ -94,3 +94,9 @@ If you have multiple URLs, you can also do:
 ## API Documentation
 
 See https://github.com/obsidianmd/obsidian-api
+
+
+## Roadmap to 1.0
+
+- [ ] grep `TODO(v1)`
+- [ ] clean out README.md
