@@ -1,7 +1,7 @@
 {
 	"name": "obsidian-open-folder",
 	"version": "0.1.0",
-	"description": "This is a plugin for Obsidian (https://obsidian.md) TODO(v1)",
+	"description": "Plugin for Obsidian (https://obsidian.md) to open a folder as a big note. Subfolders and notes become subheadings.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",

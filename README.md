@@ -1,11 +1,10 @@
-# Obsidian Sample Plugin
+# WARNING! Prelease state!
 
-This is a sample plugin for Obsidian (https://obsidian.md).
+***Make sure to backup your vault before using this plugin!***
 
-This project uses Typescript to provide type checking and documentation.
-The repo depends on the latest plugin API (obsidian.d.ts) in Typescript Definition format, which contains TSDoc comments describing what it does.
+# Open Folder plugin
+This is a plugin for Obsidian (https://obsidian.md).
 
-**Note:** The Obsidian API is still in early alpha and is subject to change at any time!
 
 This sample plugin demonstrates some of the basic functionality the plugin API can do.
 - Changes the default font color to red using `styles.css`.
@@ -96,7 +95,22 @@ If you have multiple URLs, you can also do:
 See https://github.com/obsidianmd/obsidian-api
 
 
-## Roadmap to 1.0
+## Roadmaps
 
-- [ ] grep `TODO(v1)`
+### Roadmap to v0 (MVP that can be shared privately)
+- [x] ADD README warning
+- [ ] Manual commands to generate folder->file, and v/v
+- [ ] GENERATE FROM FOLDER LOGIC:
+- [ ] Each transformating should be reversable, add `#DEBUG` logic to validate this?
+- [ ] Rewrite H`$i` to H`$j`
+- [ ] Figure out generated locatio? (`dir/._OPEN_FOLDER.md` filename?, putting in `$TMP`?)
+- [ ] Ensure generated isn't included in recursive search (by filename, frontmatter, putting in `$TMP`?)
+- [ ] Metadata under i.e. `H3` indicates that everything below should be in a file, not recurisvely written to folders
+
+### Roadmap to v1 (first publish on community extension)
+
+- [ ] setting that confirms project is backed up
+- [ ] Handle link text (all outgoing links, and also intra-links?)
+- [ ] img links
+- [ ] file watcher for bi-directional sync (how handle conflicts??)
 - [ ] clean out README.md
